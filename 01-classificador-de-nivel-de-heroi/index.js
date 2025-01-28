@@ -6,8 +6,8 @@ const prompt = require('prompt-sync')();
   let nivelHeroi = '';
   let opcao = '';
 
+  console.log('BOAS VINDAS - Classificador de Nível de Herói');
 do {
-  console.log('\n\n\n\n');
   nomeHeroi = prompt('Digite o nome do herói: ');
   xpHeroi = prompt('Informe a experiência (XP) do herói: ');
   
@@ -31,7 +31,7 @@ do {
 
   console.log(`O Herói de nome ${nomeHeroi.toUpperCase()} está no nível de ${nivelHeroi.toUpperCase()}\n\n`);
 
-  opcao = prompt('Continuar nivelamento de Herói? s-sim | n-não: ');
+  opcao = prompt('CONTINUAR - Classificador de Nível de Herói? s-sim | n-não: ');
 } while (opcao === 'S' || opcao === 's')
 
-console.log('\nNivelamento Encerrado!');
+console.log('\nENCERRADO - Classificador de Nível de Herói');
